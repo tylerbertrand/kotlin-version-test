@@ -8,7 +8,7 @@ class HelloWorldPlugin : Plugin<Project> {
     override fun apply(target: Project) {
         target.tasks.register("helloWorld") {
             it.doLast {
-                println("Hello World!")
+                println("Hello world!")
             }
         }
     }
